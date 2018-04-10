@@ -1,0 +1,31 @@
+body {
+    background-image: url(images/background.png);
+}
+
+.top-spacing {
+    background: white;
+    padding-top: 70px;
+}
+
+#my-name {
+    position: relative;
+    left: 70px;
+    background: #4aaaa5;
+    color: white;
+}
+
+.top-right-bar {
+    position: absolute;
+    right: 70px;
+}
+
+.about-me-box {
+    background: white;
+}
+
+#about-me {
+    color: #4aaaa5;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+}
