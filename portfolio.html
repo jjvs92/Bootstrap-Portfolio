@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio with Bootstrap</title>
+    <link rel= "stylesheet" type= "text/css" href= "assets/reset.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type= "text/css" href= "assets/stylesheet.css">
+
+</head>
+
+<body>
+    <!-- Created id for top spacing-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id= "top-spacing">
+        <!--Created id to manipulate name-->
+        <h3 class="navbar-brand" id= "my-name">Julian Villarreal</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Added div to move the bar to the right-->
+        <div class="top-right-bar">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link" id="top-right-bar-about"  href="index.html">About</a>
+                <a class="nav-item nav-link" id="top-right-bar-portfolio"  href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" id="top-right-bar-contact"  href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>  
+
+    <br> <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="white-background-section">
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <!-- added id to manipulate the subtitle-->
+                            <h5 id= "sub-title">Portfolio</h5>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-4">
+                            <!--Creating images class to set a position relative and then include text in image-->
+                            <div class="images">
+                                <image src= "assets/images/image_one.jpg" alt= "Project one"></image>
+                                    <div class="image-text">
+                                        <h6>Hangman</h6>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <div class="images">
+                                <image src= "assets/images/image_two.jpg" alt= "Project two"></image>      
+                                <div class="image-text">
+                                    <h6>RPG Game</h6>
+                                </div>
+                            </div>                      
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <!--Row ends-->
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-4">
+                            <div class="images">
+                                <image src= "assets/images/image_three.jpg" alt= "Project three"></image>
+                                <div class="image-text">
+                                    <h6>Trivia Game</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <div class="images">
+                                <image src= "assets/images/image_four.jpg" alt= "Project four"></image>
+                                <div class="image-text">
+                                    <h6>Rutgers info Widget</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <!--Row ends-->
+
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="images">
+                                <image src= "assets/images/image_five.jpg" alt= "Project five"></image>
+                                <div class="image-text">
+                                    <h6>Rock Paper Scissors</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>Copyright ©</footer>
+
+</body>
+</html>

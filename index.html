@@ -17,38 +17,61 @@
 
 </head>
 <body>
-    <!-- Created div to create spacing on the top-->
-    <div class="top-spacing">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <h3 id= "my-name">Julian Villarreal</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Created id for top spacing-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id= "top-spacing">
+        <!--Created id to manipulate name-->
+        <h3 class="navbar-brand" id= "my-name">Julian Villarreal</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Creating div to move these elements to the left of Navbar-->
-            <div class="top-right-bar">
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        </button>
+        <!--Added div to move the bar to the right-->
+        <div class="top-right-bar">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                </div>
+                <a class="nav-item nav-link" id="top-right-bar-about"  href="index.html">About</a>
+                <a class="nav-item nav-link" id="top-right-bar-portfolio"  href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" id="top-right-bar-contact"  href="contact.html">Contact</a>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>  
     <br> <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <div class= "about-me-box">
-                    <h5 id= "about-me">About Me</h5>
+            <div class="col-md-12">
+                <div class= "white-background-section">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <div class= "about-me-box">
+                                <h5 id= "sub-title">About Me</h5>
+                            </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                
+                    <!-- Image row-->
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <div class="image">
+                                <image src="assets/images/profile_image.png" alt= "My Profile pic"></image>
+                            </div>
+                            
+                            <p>Hello, I am Julian Villarreal. I am 25 years old soon to be 26 in May. I am from a small border town called Eagle Pass. I moved to Austin January 2016 and it was the best decision I've ever made. My favorite thing about living in a big city is there is always something new to do.</p>
+                            
+                            <p>I joined The Coding Boot-camp at UT Austin with the hope that after six long tough months I will leave with the skills that will help me start a new carrer and set myself up for a better future.</p>
+                        
+                            <p>I am very excited for the future as it has only been one week fo class and I am already creating this on my own.</p>
+                        
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
                 </div>
-            <div class="col-md-1"></div>
             </div>
         </div>
     </div>
-
+    </div>
+    <footer>Copyright ©</footer>
+   
 </body>
 </html>

@@ -17,24 +17,69 @@
 
 </head>
 <body>
-    <!-- Created div to create spacing on the top-->
-    <div class="top-spacing">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <h3 id= "my-name">Julian Villarreal</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Created id for top spacing-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" id= "top-spacing">
+        <!--Created id to manipulate name-->
+        <h3 class="navbar-brand" id= "my-name">Julian Villarreal</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Creating div to move these elements to the left of Navbar-->
-            <div class="top-right-bar">
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        </button>
+        <!--Added div to move the bar to the right-->
+        <div class="top-right-bar">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                </div>
+                <a class="nav-item nav-link" id="top-right-bar-about" href="index.html">About</a>
+                <a class="nav-item nav-link" id="top-right-bar-portfolio" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" id="top-right-bar-contact" href="contact.html">Contact</a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>  
+    <br> <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="white-background-section">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <!--added id to manipulate subtitle-->
+                            <h5 id= "sub-title">Contact</h5>
+                        </div>
+                        <div class="col-md-1"></div>                    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <form>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput" id= "contact-name">Name</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pancho Villa">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput2" id= "contact-email">Email</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="pancho_villa@gmail.mx">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1" id= "contact-message">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-info" id= "submit-btn">Submit</button>
+                        </div>
+                        <div class="col-md-9"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>Copyright ©</footer>
 </body>
+</html>
