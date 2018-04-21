@@ -116,6 +116,7 @@ footer {
     text-align: center;
     background: #4aaaa5;
     width: 100%;
+    opacity: .85;
 }
 
 h6 {
