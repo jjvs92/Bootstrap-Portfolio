@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio with Bootstrap</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
     <link rel= "stylesheet" type= "text/css" href= "assets/reset.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -56,19 +57,13 @@
                         <div class="col-md-4">
                             <!--Creating images class to set a position relative and then include text in image-->
                             <div class="images">
-                                <image src= "assets/images/Psychic_image.jpeg" alt= "Project one" class="portfolio-images"></image>
-                                    <div class="image-text">
-                                        <a href="https://jjvs92.github.io/Psychic-Game/" target="_blank"><h6>Psychic Game</h6></a>
-                                    </div>
+                                <image src= "assets/images/Psychic_image.jpeg" id="psychicGameImage" alt= "Project one" class="portfolio-images"></image>
                             </div>
                         </div>
                         <div class="col-md-2"></div>
                         <div class="col-md-4">
                             <div class="images">
-                                <image src= "assets/images/image_two.jpg" alt= "Project two" class="portfolio-images"></image>      
-                                <div class="image-text">
-                                    <h6>RPG Game</h6>
-                                </div>
+                                <image src= "assets/images/crystalCollectorImage.png" id="ccImage" alt= "Project two" class="portfolio-images"></image>      
                             </div>                      
                         </div>
                         <div class="col-md-1"></div>
@@ -118,5 +113,6 @@
 
     <footer>Copyright ©</footer>
 
+    <script rel= "javascript/text" src="assets/javascript/portfolio.js"></script>
 </body>
 </html>
