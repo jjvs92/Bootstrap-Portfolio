@@ -6,6 +6,6 @@ $(document).ready(function(){
     } )
 
     $(".container").on("click", "#psychicGameImage", function(){
-        window.open("https://jjvs92.github.io/Psychic-Game/");
+        window.open("https://jjvs92.github.io/Word-Guess-Game/");
     })
 })
