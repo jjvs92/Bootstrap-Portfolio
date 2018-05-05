@@ -8,4 +8,9 @@ $(document).ready(function(){
     $(".container").on("click", "#psychicGameImage", function(){
         window.open("https://jjvs92.github.io/Word-Guess-Game/");
     })
+
+    $(".container").on("click", "#triviaGame", function(){
+        window.open("https://jjvs92.github.io/TriviaGame/");
+    })    
+
 })
