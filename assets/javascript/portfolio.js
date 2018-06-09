@@ -13,4 +13,12 @@ $(document).ready(function(){
         window.open("https://jjvs92.github.io/TriviaGame/");
     })    
 
+    $(".container").on("click", "#gifTastic", function(){
+        window.open("https://jjvs92.github.io/GifTastic/");
+    })
+
+    $(".container").on("click", "#projectOne", function(){
+        window.open("https://iamstu.github.io/group-project1/");
+    })
+
 })
